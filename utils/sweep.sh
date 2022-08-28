@@ -42,6 +42,7 @@
 if [ "${1}" = "" ]
 then
     echo "SWEEP: Please specify a simulator executable as the first parameter."
+    echo "e.g: ./sweep.sh ../src/booksim ../src/examples/torus88"
     exit
 fi
 
